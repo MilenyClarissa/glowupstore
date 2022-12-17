@@ -1,0 +1,228 @@
+
+USER STORIES
+
+
+15/12/2022 00:18 [#GUS-2] O usuário deseja efetuar o cadastro com o Google na loja virtual
+https://mileny.atlassian.net/si/jira.issueviews:issue-html/GUS-2/GUS-2.html 1/2
+[GUS-2] O usuário deseja efetuar o cadastro com o Google na loja virtual Criado: 03/dez/22 Atualizado(a): 15/dez/22 Resolvido:
+14/dez/22
+Status: Concluído
+Projeto: glow up store
+Componentes: Nenhum
+Versões afetadas: Nenhum
+Versões corrigidas: Nenhum
+Tipo: História Prioridade: Medium
+Relator: Mileny Clarissa Responsável: Mileny Clarissa
+Resolução: Itens concluídos Votos: 0
+Categorias: Nenhum
+Σ da estimativa de trabalho
+restante:
+Desconhecido Estimativa de trabalho
+restante:
+Desconhecido
+Σ de Tempo Gasto: Desconhecido Tempo gasto: Desconhecido
+Σ da Estimativa Original: Desconhecido Estimativa original: Desconhecido
+Subtarefas: Chave Resumo Tipo Status Responsável
+GUS-5 levantamento e escrita de
+casos de te...
+Subtarefa Concluído
+GUS-6 execução de testes manuais Subtarefa Concluído
+Sprint: quadro Sprint 1
+Story point estimate: 8
+Rank: 0|i00007:
+Descrição
+1. Valor: A autenticação do usuário na loja virtual é importante para que os clientes possam se cadastrar, fazer login e fazer pedidos com
+segurança.
+2. Narrativa do Usuário:
+Como: Cliente
+Eu quero: Acessar a página de login do usuário.
+Para: Visualizar a opção de cadastro com o Google.
+3. Requisitos:
+Atores: cliente (modelo internacional)
+Interface: Ver documento em (anexo) da UI/UX
+Dados:
+criar banco de dados/tabelas para armazenar informações dos clientes cadastrados.
+criação de API para integração com front-end. o banco de dados criado.
+criação de tela de login para permitir que o usuário acesse a página do login, a página de cadastro do usuário e a página de redefinição de senha.
+login via google.
+Plataformas/Ambientes:
+Aplicativo na versão Android e IOS
+Web/ Web Mobile
+Devem ser configurados ambientes e papilares para desenvolvimento, homologação de usuários, homologação QA e produção.
+Critérios de aceite:
+usuário deverá visualizar a opção de entrar com a conta do Google na loja virtual
+o usuário será encaminhado para a confirmação no Google
+usuário deverá efetuar o cadastro
+Ou
+1. Cenário: Cliente sem cadastro deseja efetuar login com o google
+dado que o cliente esteja na tela de login
+e visualize a opção de logar com o Google
+quando clicar em logar
+então será redirecionado para uma Tela de confirmação no Google
+15/12/2022 00:18 [#GUS-2] O usuário deseja efetuar o cadastro com o Google na loja virtual
+https://mileny.atlassian.net/si/jira.issueviews:issue-html/GUS-2/GUS-2.html 2/2
+2. Cenário: Cliente sem cadastro tenta efetuar login com o Google
+dado que o cliente esteja na tela de login
+e tente logar com uma conta Google não cadastrada
+quando clicar em logar
+então uma mensagem surgirá avisando que a conta é invalida
+3. Cenário: Cliente com cadastro efetua login com o Google
+dado que o cliente esteja na tela de login
+e visualize o botão para conectar com a conta Google
+quando clicar no botão
+então será redirecionado para a página inicial do site da loja
+https://mm.tt/map/2532118778?t=MCSbHkrRFh (mind map)
+Gerado em Thu Dec 15 03:17:16 UTC 2022 por Mileny Clarissa usando JIRA 1001.0.0-SNAPSHOT#100212-
+sha1:e2fc4865a3acd31d1a56735680a9e7f1fd46941c 
+
+ [GUS-4] como o usuário deseja preencher o formulário para redefinição de senha Criado: 04/dez/22 Atualizado(a): 15/dez/22
+Resolvido: 15/dez/22
+Status: Concluído
+Projeto: glow up store
+Componentes: Nenhum
+Versões afetadas: Nenhum
+Versões corrigidas: Nenhum
+Tipo: História Prioridade: Medium
+Relator: Mileny Clarissa Responsável: Mileny Clarissa
+Resolução: Itens concluídos Votos: 0
+Categorias: Nenhum
+Σ da estimativa de trabalho
+restante:
+Desconhecido Estimativa de trabalho
+restante:
+Desconhecido
+Σ de Tempo Gasto: Desconhecido Tempo gasto: Desconhecido
+Σ da Estimativa Original: Desconhecido Estimativa original: Desconhecido
+Links de itens: Blocks
+is blocked by GUS-12 usuário cadastrado é redirecionado pa... Tarefas pendentes
+Subtarefas: Chave Resumo Tipo Status Responsável
+GUS-10 levantamento e escrita de
+casos de te...
+Subtarefa Concluído
+GUS-11 execução de testes manuais Subtarefa Concluído
+Sprint: quadro Sprint 2
+Story point estimate: 8
+Rank: 0|i0000n:
+Descrição
+1. Valor: A autenticação do usuário na loja virtual é importante para que os clientes possam se cadastrar, fazer login e redefinir senha.
+2. Narrativa do usuário:
+Como: cliente
+Eu quero: acessar a página de redefinição de senha.
+Para: visualizar opções de redefinição de senha.
+Requisitos:
+Atores: cliente (influenciador digital)
+Interface: Ver documento em (anexo) da UI/UX
+Interface com as APIs
+Dados:
+criar banco de dados/tabelas para armazenar informações dos clientes cadastrados.
+criação de API para integração com front-end. o banco de dados criado.
+criação de tela de login para permitir que o usuário acesse a página do login, a página de cadastro do usuário e a página de redefinição de senha.
+Plataformas/Ambientes:
+Aplicativo na versão Android e IOS
+Web/ Web Mobile
+Devem ser configurados ambientes e papilares para desenvolvimento, homologação de usuários, homologação QA e produção.
+Critérios de aceite:
+usuário deverá visualizar formulário para fazer login e entrar na loja virtual
+usuário deverá visualizar botão para acessar a tela de “esqueci minha senha”
+usuário deverá visualizar o formulário para redefinir a senha.
+OU
+1. Cenário: Cliente com cadastro deseja redefinir senha
+dado que o cliente esteja na tela de login
+e visualize o formulário para fazer o login
+quando clicar em entrar na conta
+15/12/2022 00:20 [#GUS-4] como o usuário deseja preencher o formulário para redefinição de senha
+https://mileny.atlassian.net/si/jira.issueviews:issue-html/GUS-4/GUS-4.html 2/2
+então uma mensagem surgirá informando que a senha está incorreta
+2. Cenário: Cliente com cadastro tenta redefinir senha
+dado que o cliente esteja na tela de login
+e visualize a opção de “esqueci minha senha”
+quando clicar no botão
+então será redirecionado para a tela de redefinição de senha
+3. Cenário: Cliente com cadastro consegue redefinir senha
+dado que o cliente esteja na tela de redefinição de senha
+e clique na opção enviar código de confirmação no e-mail
+quando confirmar no e-mail
+então será redirecionado para a tela de criar nova senha
+Gerado em Thu Dec 15 03:20:10 UTC 2022 por Mileny Clarissa usando JIRA 1001.0.0-SNAPSHOT#100212-
+
+
+                                              CASOS DE TESTES
+
+
+		Key	Name	Status	Precondition	Objective	Folder	Priority	Component	Labels	Owner	Estimated Time	Coverage (Issues)	Coverage (Pages)	Test Script (Step-by-Step) - Step	Test Script (Step-by-Step) - Test Data	Test Script (Step-by-Step) - Expected Result	Test Script (BDD)	Test Script (BDD)	
+GUS-T1	Cliente sem cadastro deseja efetuar login com o google	Approved		Verificar funcionalidade de login	/login	Normal			638ba311fde064eda2f1aa11								
+
+"Given que o cliente esteja na tela de login
+
+And visualize a opção de logar com o Google
+
+When clicar em logar
+
+Then será redirecionado para uma Tela de confirmação no Google"	
+GUS-T2	Cliente sem cadastro tenta efetuar login com o Google	Approved			/login	Normal			638ba311fde064eda2f1aa11		GUS-2		Acessar url X 	"172.17.25.54
+
+"	usuário deve visualizar tela de login			
+													"usuário clica em logar com o google
+
+"	172.17.25.54	usuário deve visualizar tela de confirmação			
+GUS-T3	Cliente com cadastro deseja redefinir senha	Approved		"Verificar funcionalidade de redefinição de senha
+
+
+"	/Redefinição de Senha	Normal			638ba311fde064eda2f1aa11		GUS-4					 
+
+"Given que o cliente esteja na tela de login
+
+And visualize o formulário para fazer o login
+
+When clicar em entrar na conta
+
+Then uma mensagem surgirá informando que a senha está incorreta"	
+GUS-T4	Cliente com cadastro tenta redefinir senha	Approved		testar	/Redefinição de Senha	Normal			638ba311fde064eda2f1aa11		GUS-4		Acessar url X 	172.17.25.54	"usuário deve visualizar tela de redefinição de senha
+
+"			
+													usuário cria nova senha 	172.17.25.54	usuário deve visualizar página inicial do site		
+
+
+                                           PLANOS DE TESTE 
+
+                                    Testes funcionais- Sprint 1
+                                    Testes funcionais- Sprint 2
+
+
+                                        CICLO DE VIDA DO BUG:
+
+[GUS-12] usuário cadastrado não tá sendo redirecionado para a tela de redefinição de senha Criado: 15/dez/22
+Atualizado(a): 17/dez/22
+Status: Concluído
+Projeto: glow up store
+Componentes: Nenhum
+Versões afetadas: quadro Sprint 2
+Versões corrigidas: quadro Sprint 2
+Tipo: Bug Prioridade: Medium
+Relator: Mileny Clarissa Responsável: Mileny Clarissa
+Resolução: Não resolvido(s) Votos: 0
+Categorias: Nenhum
+Estimativa de trabalho
+restante:
+Desconhecido
+Tempo gasto: Desconhecido
+Estimativa original: Desconhecido
+Links de itens: Blocks
+blocks GUS-4 como o usuário deseja preencher o for... Concluído
+Rank: 0|i0001r:
+Sprint: quadro Sprint 2
+Descrição
+aqui vai a descrição do bug: usuário não consegue redefinir senha, uma tela de erro aparece ao ser redirecionado para a tela de redefinição
+
+  
+                                           FLUXO DE TRABALHO:
+
+                                           INICIAR 
+                                           CREATE
+                                           TO DO
+                                           INICIAR desenvolvimento
+                                           IN PROGRESS
+                                           INICIAR TESTES
+                                           EM TESTE
+                                           FINALIZAR TESTES
+                                           DONE
